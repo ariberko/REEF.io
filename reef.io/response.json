@@ -1,0 +1,109 @@
+{
+  "productId": "RF-0x5",
+  "details": {
+    "color": "blue",
+    "type": "cybersecurity",
+    "name": "REEF.io",
+    "team": "Ari Berkowitz"
+  },
+  "assets": [
+    {
+      "ip": "192.168.100.10",
+      "name": "workstation-01",
+      "memory": "16GB",
+      "category": "endpoint",
+      "type": "workstation"
+    },
+    {
+      "ip": "192.168.100.11",
+      "name": "server-DB",
+      "memory": "64GB",
+      "category": "database",
+      "type": "server"
+    }
+  ],
+  "alerts": [
+    {
+      "action": "site_visit",
+      "url": "https://facebook.com",
+      "title": "Facebook",
+      "timestamp": "2025-05-15T10:00:00Z"
+    },
+    {
+      "action": "site_visit",
+      "url": "https://twitter.com",
+      "title": "Twitter",
+      "timestamp": "2025-05-15T10:01:00Z"
+    },
+    {
+      "action": "site_visit",
+      "url": "https://instagram.com",
+      "title": "Instagram",
+      "timestamp": "2025-05-15T10:02:00Z"
+    },
+    {
+      "action": "site_visit",
+      "url": "https://wikipedia.org",
+      "title": "Wikipedia",
+      "timestamp": "2025-05-15T10:03:00Z"
+    },
+    {
+      "action": "site_visit",
+      "url": "https://reddit.com",
+      "title": "Reddit",
+      "timestamp": "2025-05-15T10:04:00Z"
+    },
+    {
+      "action": "site_visit",
+      "url": "https://google.com",
+      "title": "Google",
+      "timestamp": "2025-05-15T10:05:00Z"
+    },
+    {
+      "action": "blocked_site",
+      "url": "https://facebook.com",
+      "title": "Facebook",
+      "timestamp": "2025-05-15T10:00:01Z"
+    },
+    {
+      "action": "blocked_site",
+      "url": "https://twitter.com",
+      "title": "Twitter",
+      "timestamp": "2025-05-15T10:01:01Z"
+    },
+    {
+      "action": "blocked_site",
+      "url": "https://instagram.com",
+      "title": "Instagram",
+      "timestamp": "2025-05-15T10:02:01Z"
+    },
+    {
+      "action": "blocked_site",
+      "url": "https://wikipedia.org",
+      "title": "Wikipedia",
+      "timestamp": "2025-05-15T10:03:01Z"
+    },
+    {
+      "action": "blocked_site",
+      "url": "https://reddit.com",
+      "title": "Reddit",
+      "timestamp": "2025-05-15T10:04:01Z"
+    },
+    {
+      "action": "download_attempt",
+      "url": "https://wikipedia.org/file.pdf",
+      "filename": "file.pdf",
+      "timestamp": "2025-05-15T10:06:00Z"
+    },
+    {
+      "action": "copy",
+      "url": "https://google.com",
+      "timestamp": "2025-05-15T10:07:00Z"
+    },
+    {
+      "action": "paste",
+      "url": "https://facebook.com",
+      "timestamp": "2025-05-15T10:08:00Z"
+    }
+  ]
+} 
